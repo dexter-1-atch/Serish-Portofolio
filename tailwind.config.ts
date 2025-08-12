@@ -18,15 +18,23 @@ export default {
 			}
 		},
 		extend: {
+			fontFamily: {
+				orbitron: ['Orbitron', 'monospace'],
+				inter: ['Inter', 'sans-serif'],
+			},
 			colors: {
 				border: 'hsl(var(--border))',
 				input: 'hsl(var(--input))',
 				ring: 'hsl(var(--ring))',
 				background: 'hsl(var(--background))',
 				foreground: 'hsl(var(--foreground))',
+				'space-dark': 'hsl(var(--space-dark))',
+				'space-medium': 'hsl(var(--space-medium))',
+				'space-light': 'hsl(var(--space-light))',
 				primary: {
 					DEFAULT: 'hsl(var(--primary))',
-					foreground: 'hsl(var(--primary-foreground))'
+					foreground: 'hsl(var(--primary-foreground))',
+					glow: 'hsl(var(--primary-glow))'
 				},
 				secondary: {
 					DEFAULT: 'hsl(var(--secondary))',
@@ -50,8 +58,16 @@ export default {
 				},
 				card: {
 					DEFAULT: 'hsl(var(--card))',
-					foreground: 'hsl(var(--card-foreground))'
+					foreground: 'hsl(var(--card-foreground))',
+					border: 'hsl(var(--card-border))'
 				},
+				'electric-blue': {
+					DEFAULT: 'hsl(var(--electric-blue))',
+					dark: 'hsl(var(--electric-blue-dark))'
+				},
+				'neon-cyan': 'hsl(var(--neon-cyan))',
+				'neon-purple': 'hsl(var(--neon-purple))',
+				'neon-green': 'hsl(var(--neon-green))',
 				sidebar: {
 					DEFAULT: 'hsl(var(--sidebar-background))',
 					foreground: 'hsl(var(--sidebar-foreground))',
