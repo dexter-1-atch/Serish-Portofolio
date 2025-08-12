@@ -1,5 +1,5 @@
 import { Code, Palette, Cpu, Lightbulb } from 'lucide-react';
-import profileImage from '@/assets/profile-image.jpg';
+const profileImage = '/lovable-uploads/c483773f-cb18-4211-9f59-e2fd929de027.png';
 
 const About = () => {
   const skills = [
